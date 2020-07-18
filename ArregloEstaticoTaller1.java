@@ -25,22 +25,22 @@ public class ArregloEstaticoTaller1 {
         
         arr = new String[12];
         
-        arr[0]= "Primer mes : Enero";
-        arr[1]= "Segundo mes: Febrero";
-        arr[2]= "Tercer mes: Marzo";
-        arr[3]= "Cuarto mes: Abril";
-        arr[4]= "Quinto mes: Mayo";
-        arr[5]= "Sexto mes: Junio";
-        arr[6]= "Septimo mes: Julio";
-        arr[7]= "Octavo mes: Agosto";
-        arr[8]= "Noveno mes: Septiembre";
-        arr[9]=  "Decimo mes: Octubre";
-        arr[10]= "Onceavo mes: Noviembre";
-        arr[11]= "Doceavo mes: Diciembre";
+        arr[0]= " Enero";
+        arr[1]= " Febrero";
+        arr[2]= "Marzo";
+        arr[3]= " Abril";
+        arr[4]= " Mayo";
+        arr[5]= " Junio";
+        arr[6]= " Julio";
+        arr[7]= " Agosto";
+        arr[8]= " Septiembre";
+        arr[9]=  " Octubre";
+        arr[10]= " Noviembre";
+        arr[11]= " Diciembre";
         
         
         for(int i=0; i<arr.length;i++){
-            System.out.println("En la posicion " +i+" esta el -- "+arr[i]);
+            System.out.println("En la posicion " +i+" esta el mes de: "+arr[i]);
         }
     }
     
